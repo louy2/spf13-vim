@@ -1,0 +1,4 @@
+Bundle 'jcf/vim-latex'
+Bundle 'moll/vim-node'
+
+Bundle 'Valloric/MatchTagAlways'

@@ -1,0 +1,20 @@
+" Set up bundle groups
+let g:spf13_bundle_groups=['general', 'youcompleteme', 'programming', 'php', 'ruby', 'python', 'javascript', 'html', 'misc']
+
+" LaTeX-Suite {
+" Use 'tex' for .tex to load latex-suite
+let g:tex_flavor='latex'
+" compile settings
+let g:Tex_MultipleCompileFormats='dvi,pdf'
+let g:Tex_DefaultTargetFormat='pdf'
+let g:Tex_CompileRule_dvi='latex -interaction=nonstopmode -file-line-error-style $*'
+let g:Tex_CompileRule_pdf='pdflatex -interaction=nonstopmode -file-line-error-style $*'
+let g:Tex_GotoError=0
+" viewer settings
+let g:Tex_ViewRule_pdf='E:\App\SumatraPDF-2.4\SumatraPDF.exe'
+"}
+
+" Use only git in signify {
+let g:signify_vcs_list = [ 'git', 'hg' ]
+let g:signify_diffoptions = { 'git': '-w', 'hg': '-w' }
+" }
