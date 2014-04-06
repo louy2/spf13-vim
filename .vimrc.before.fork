@@ -1,5 +1,5 @@
 " Set up bundle groups
-let g:spf13_bundle_groups=['general', 'youcompleteme', 'programming', 'php', 'ruby', 'python', 'javascript', 'html', 'misc']
+let g:spf13_bundle_groups=['general', 'neocomplcache', 'programming', 'php', 'ruby', 'python', 'javascript', 'html', 'misc']
 
 " LaTeX-Suite {
 " Use 'tex' for .tex to load latex-suite

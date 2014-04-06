@@ -230,7 +230,7 @@
 
 " }
 
-" Key (re)Mappings {
+" Key (re)Mappings "{
 
     " The default leader is '\', but many people prefer ',' as it's in a standard
     " location. To override this behavior and set it back to '\' (or any other
@@ -356,7 +356,7 @@
 
 
     " Find merge conflict markers
-    map <leader>fc /\v^[<\|=>]{7}( .*\|$)<CR>
+    map <leader>fc /\v^[<\|=>]( .*\|$)<CR>
 
     " Shortcuts
     " Change Working Directory to that of the current file
@@ -397,7 +397,7 @@
     " fullscreen mode for GVIM and Terminal, need 'wmctrl' in you PATH
     map <silent> <F11> :call system("wmctrl -ir " . v:windowid . " -b toggle,fullscreen")<CR>
 
-" }
+" }"}
 
 " Plugins {
 
@@ -1002,4 +1002,4 @@
             source ~/.gvimrc.local
         endif
     endif
-" }
+" 
